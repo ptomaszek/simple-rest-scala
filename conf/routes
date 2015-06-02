@@ -1,10 +1,4 @@
-# Routes
-# This file defines all application routes (Higher priority routes first)
-# ~~~~
+GET         /invitation          org.example.invitation.controller.InvitationController.list
+POST        /invitation          org.example.invitation.controller.InvitationController.save
 
-# Home page
-GET      /books                           controllers.Application.listBooks
-POST     /books                           controllers.Application.saveBook
-
-# Map static resources from the /public folder to the /assets URL path
-GET     /assets/*file               controllers.Assets.versioned(path="/public", file)
+GET         /assets/*file        controllers.Assets.versioned(path="/public", file)
