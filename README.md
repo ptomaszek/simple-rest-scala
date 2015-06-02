@@ -1,7 +1,10 @@
 To start the application on Linux, type:
 ```
 chmod +x run.sh
-./run.sh   # this may take same time due to a need of downloading some libraries by sbt
+./run.sh   # during the first usage this will take quite a long time for activator to download dependencies
 ```
 
 To stop the application press Ctrl+D.
+
+
+URI: http://localhost:9000/invitation [POST/GET]
